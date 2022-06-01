@@ -16,10 +16,6 @@ tasks:
     src: ./tmp/ncs/server.cfg
     dest: ./server.cfg
 
-  - action: move_path
-    src: ./tmp/ncs/NCSLogo.png
-    dest: ./NCSLogo.png
-
   # Prepare Database
   - action: connect_database
   - action: query_database
